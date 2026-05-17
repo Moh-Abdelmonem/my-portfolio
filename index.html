@@ -12,7 +12,14 @@
 </head>
 <body>
 
-    <div class="glow-bg"></div>
+    <!-- Magic Background Layers -->
+    <div class="space-void">
+        <div class="stars-layer-1"></div>
+        <div class="stars-layer-2"></div>
+        <div class="nebula-purple"></div>
+        <div class="nebula-blue"></div>
+        <div class="nebula-magenta"></div>
+    </div>
 
     <header class="navbar">
         <div class="container nav-container">
@@ -21,7 +28,7 @@
                 <ul class="nav-links">
                     <li><a href="#about" class="nav-item">About</a></li>
                     <li><a href="#projects" class="nav-item">Projects</a></li>
-                    <li><a href="#contact" class="nav-btn">Let's Connect <i class="fa-solid fa-arrow-right"></i></a></li>
+                    <li><a href="#contact" class="nav-btn">Let's Connect <i class="fa-solid fa-wand-magic-sparkles"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -37,14 +44,15 @@
                 <h1>Engineering High-Performance <br><span class="gradient-text">Backend Architectures</span></h1>
                 <p class="hero-lead">Software development student specializing in the .NET ecosystem. Focused on building robust RESTful APIs, optimizing complex database systems, and writing highly maintainable enterprise code.</p>
                 <div class="hero-actions">
-                    <a href="#projects" class="action-btn primary">Explore Projects <i class="fa-solid fa-code"></i></a>
-                    <a href="#about" class="action-btn secondary">Technical Stack <i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#projects" class="action-btn primary">Explore Projects <i class="fa-solid fa-terminal"></i></a>
+                    <a href="#about" class="action-btn secondary">Technical Stack <i class="fa-solid fa-bolt"></i></a>
                 </div>
             </div>
             
             <div class="hero-image-container">
                 <div class="profile-frame">
                     <img src="IMG-20250401-WA0117.jpg" alt="Mohamed Abdelmonem" class="profile-img">
+                    <div class="frame-glow-line"></div>
                 </div>
             </div>
         </div>
@@ -53,8 +61,8 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Background</span>
-                <h2 class="section-title">About & Philosophy</h2>
+                <span class="section-tag">Architecture Core</span>
+                <h2 class="section-title">About & Skills</h2>
             </div>
             
             <div class="about-grid">
@@ -64,17 +72,17 @@
                 </div>
                 
                 <div id="skills" class="skills-wrapper">
-                    <h3 class="skills-title"><i class="fa-solid fa-layer-group" style="color: var(--primary);"></i> Core Competencies</h3>
+                    <h3 class="skills-title"><i class="fa-solid fa-cubes"></i> Core Competencies</h3>
                     <div class="skills-grid">
-                        <div class="skill-category">
+                        <div class="skill-category stack-color">
                             <h4><i class="fa-solid fa-terminal"></i> Core Stack</h4>
                             <p>C#, ASP.NET Core, Web API</p>
                         </div>
-                        <div class="skill-category">
+                        <div class="skill-category data-color">
                             <h4><i class="fa-solid fa-database"></i> Data Engineering</h4>
                             <p>MS SQL Server, EF Core, LINQ</p>
                         </div>
-                        <div class="skill-category">
+                        <div class="skill-category arch-color">
                             <h4><i class="fa-solid fa-sitemap"></i> Architecture</h4>
                             <p>Repository Pattern, Clean Architecture, REST</p>
                         </div>
@@ -87,35 +95,35 @@
     <section id="projects" class="projects-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Selected Works</span>
+                <span class="section-tag">Selected Work</span>
                 <h2 class="section-title">Featured Production Code</h2>
             </div>
             
             <div class="portfolio-grid">
-                <div class="portfolio-card">
+                <div class="portfolio-card api-card">
                     <div class="project-img-wrapper">
                         <img src="Screenshot 2026-05-17 135748.png" alt="Amg Platform Landing Page" class="project-screenshot">
                     </div>
                     <div class="card-content">
                         <div class="card-header-flex">
-                            <span class="tech-badge"><i class="fa-solid fa-server"></i> Backend Web API</span>
+                            <span class="tech-badge"><i class="fa-solid fa-server"></i> Backend Core MVC</span>
                             <a href="https://coursesplatform.runasp.net/" target="_blank" class="live-link">Live App <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
-                        <h3>Amg Courses Platform</h3>
+                        <h3>Amg E-Learning Platform</h3>
                         <p>An enterprise-grade e-learning management core system handling asynchronous student enrollments, progress states, and secure transaction logs.</p>
                         <div class="card-footer">
                             <div class="tech-list">
-                                <span>ASP.NET Core</span>
-                                <span>SQL Server</span>
-                                <span>EF Core</span>
+                                <span class="badge-purple">ASP.NET Core</span>
+                                <span class="badge-cyan">SQL Server</span>
+                                <span class="badge-magenta">EF Core</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="portfolio-card">
+                <div class="portfolio-card design-card">
                     <div class="project-img-wrapper">
-                        <img src="Screenshot 2026-05-17 135737.png" alt="Kasper Landing Page" class="project-screenshot">
+                        <img src="Screenshot 2026-05-17 135737.png" alt="Leon Landing Page" class="project-screenshot">
                     </div>
                     <div class="card-content">
                         <div class="card-header-flex">
@@ -126,9 +134,9 @@
                         <p>A modern, modular static interface showcase template. Built completely from the ground up focusing on semantically exact HTML codes and fluid CSS variables.</p>
                         <div class="card-footer">
                             <div class="tech-list">
-                                <span>HTML5</span>
-                                <span>CSS3 Layouts</span>
-                                <span>UI/UX Architecture</span>
+                                <span class="badge-cyan">HTML5</span>
+                                <span class="badge-magenta">CSS3 Layouts</span>
+                                <span class="badge-purple">UI/UX Design</span>
                             </div>
                         </div>
                     </div>
@@ -137,20 +145,20 @@
         </div>
     </section>
 
-<section id="contact" class="contact-section">
+    <section id="contact" class="contact-section">
         <div class="container">
             <div class="contact-card">
-                <span class="section-tag">Communication</span>
+                <span class="section-tag">Secure Channel</span>
                 <h2>Let's Engineer Something Great</h2>
                 <p>Seeking production-level backend integration, professional collaboration, or freelance contracts.</p>
-                <a href="mailto:mo7amed112005@gmail.com" class="mail-action">Initiate Conversation <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="mailto:mo7amed112005@gmail.com" class="mail-action">Initiate Conversation <i class="fa-solid fa-bolt-lightning"></i></a>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 Mohamed Abdelmonem. Optimized & Engineered.</p>
+            <p>&copy; 2026 Mohamed Abdelmonem. All Rights Reserved.</p>
             <div class="footer-meta">
                 <a href="https://github.com/Moh-Abdelmonem" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                 <a href="https://www.linkedin.com/in/mohamed-%D9%90abdelmonem-a59a84395/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
