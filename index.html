@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Abdelmonem | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="glow-bg"></div>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Eng/Mohamed<span>.</span>Abdelmonem</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#contact" class="nav-btn">Let's Connect <i class="fa-solid fa-arrow-right"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-layout">
+            <div class="hero-text">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Available for Freelance & Backend Contracts</span>
+                </div>
+                <h1>Engineering High-Performance <br><span class="gradient-text">Backend Architectures</span></h1>
+                <p class="hero-lead">Software development student specializing in the .NET ecosystem. Focused on building robust RESTful APIs, optimizing complex database systems, and writing highly maintainable enterprise code.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="action-btn primary">Explore Projects <i class="fa-solid fa-code"></i></a>
+                    <a href="#about" class="action-btn secondary">Technical Stack <i class="fa-solid fa-arrow-down"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container">
+                <div class="profile-frame">
+                    <img src="IMG-20250401-WA0117.jpg" alt="Mohamed Abdelmonem" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Background</span>
+                <h2 class="section-title">About & Philosophy</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I view backend development not just as writing logic, but as crafting the foundational engine of a digital product. My focus centers on architectural clean code patterns, minimizing query latencies, and ensuring seamless API integration workflows.</p>
+                    <p>Through rigid optimization using tools like LINQ and Entity Framework Core, I bridge the gap between heavy transactional requirements and fluid frontend execution interfaces.</p>
+                </div>
+                
+                <div id="skills" class="skills-wrapper">
+                    <h3 class="skills-title"><i class="fa-solid fa-layer-group" style="color: var(--primary);"></i> Core Competencies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4><i class="fa-solid fa-terminal"></i> Core Stack</h4>
+                            <p>C#, ASP.NET Core, Web API</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fa-solid fa-database"></i> Data Engineering</h4>
+                            <p>MS SQL Server, EF Core, LINQ</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4><i class="fa-solid fa-sitemap"></i> Architecture</h4>
+                            <p>Repository Pattern, Clean Architecture, REST</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Selected Works</span>
+                <h2 class="section-title">Featured Production Code</h2>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="project-img-wrapper">
+                        <img src="Screenshot 2026-05-17 135748.png" alt="Amg Platform Landing Page" class="project-screenshot">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="tech-badge"><i class="fa-solid fa-server"></i> Backend Web API</span>
+                            <a href="https://coursesplatform.runasp.net/" target="_blank" class="live-link">Live App <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3>Amg Courses Platform</h3>
+                        <p>An enterprise-grade e-learning management core system handling asynchronous student enrollments, progress states, and secure transaction logs.</p>
+                        <div class="card-footer">
+                            <div class="tech-list">
+                                <span>ASP.NET Core</span>
+                                <span>SQL Server</span>
+                                <span>EF Core</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="project-img-wrapper">
+                        <img src="Screenshot 2026-05-17 135737.png" alt="Kasper Landing Page" class="project-screenshot">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header-flex">
+                            <span class="tech-badge"><i class="fa-solid fa-display"></i> Frontend Template</span>
+                            <a href="https://moh-abdelmonem.github.io/Kasper/" target="_blank" class="live-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <h3>Kasper UI Design</h3>
+                        <p>A modern, modular static interface showcase template. Built completely from the ground up focusing on semantically exact HTML codes and fluid CSS variables.</p>
+                        <div class="card-footer">
+                            <div class="tech-list">
+                                <span>HTML5</span>
+                                <span>CSS3 Layouts</span>
+                                <span>UI/UX Architecture</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <span class="section-tag">Communication</span>
+                <h2>Let's Engineer Something Great</h2>
+                <p>Seeking production-level backend integration, professional collaboration, or freelance contracts.</p>
+                <a href="mailto:mo7amed112005@gmail.com" class="mail-action">Initiate Conversation <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Mohamed Abdelmonem. Optimized & Engineered.</p>
+            <div class="footer-meta">
+                <a href="https://github.com/Moh-Abdelmonem" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/mohamed-%D9%90abdelmonem-a59a84395/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
